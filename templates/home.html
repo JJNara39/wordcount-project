@@ -1,0 +1,13 @@
+<h1>WORD COUNT</h1>
+
+<form action="{% url 'count' %}">
+  <textarea cols="40" rows="10" name="fulltext"></textarea>
+  <br /> <!-- adds a break to the textbox so that the button is right below it -->
+  <input type="submit" value="Count!" />
+  <br />
+  </form> <!-- This form [written in html] creates the textbox called 'fulltext' -->
+  <br />
+
+<form action="{% url 'about' %}">
+  <input type="submit" value="About">
+  </form>
